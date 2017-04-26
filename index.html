@@ -74,9 +74,20 @@
 </section>
 <!-- Профессии (end) -->
 
-<!-- С чего начинал я (begin) -->
+<!-- Начало (begin) -->
 <section class="slide">
-  <h2>С чего начинал я</h2>
+  <h2>Начало: верстка</h2>
+  <pre><code>
+&lt;span class="button" tabindex="0" role="button"&gt;
+  &lt;span class="button__text"&gt;Кнопка&lt;/span&gt;
+&lt;/span&gt;
+  </code></pre>
+</section>
+<!-- Начало (end) -->
+
+<!-- Начало: jQuery (begin) -->
+<section class="slide">
+  <h2>Начало: jQuery</h2>
    <pre><code>
 jQuery('.products_list_index').hide();
 jQuery('#products_list_index .item').removeClass("selected");
@@ -85,10 +96,90 @@ jQuery(this).addClass("selected");
    </code></pre>
   <p>Еще: <a href="http://govnokod.ru/javascript">govnokod.ru/javascript</a></p>
 </section>
-<!-- С чего начинал я (end) -->
+<!-- Начало: jQuery (end) -->
+
+<!-- Начало: ajax (begin) -->
+<section class="slide" style="padding-top: 30px;">
+  <h2>Начало: ajax</h2>
+  <pre><code style="line-height: 1.5em;">$.ajax({
+  type: 'POST',
+  url: '/',
+  data: {
+    'reverse_call': true,
+    name: name,
+    phone: phone
+  },
+  success: function() {
+    $('table#reverse_call .close').click();
+    alert('Обратный звонок успешно заказан');
+  }
+});
+  </code></pre>
+</section>
+<!-- Начало: ajax (end) -->
+
+<!-- Маг и волшебник (begin) -->
+<section class="slide">
+  <img src="pictures/magic-of-jquery.png" alt="" class="cover">
+</section>
+<!-- Маг и волшебник (end) -->
+
+<!-- Что дальше? (begin) -->
+<section class="slide">
+  <h2 class="shout">Что дальше?</h2>
+</section>
+<!-- Что дальше? (end) -->
+
+<!-- Хочу стать программистом (begin) -->
+<section class="slide">
+  <h2 class="shout">Хочу стать программистом!</h2>
+</section>
+<!-- Хочу стать программистом (end) -->
+
+<!-- Языки (begin) -->
+<section class="slide">
+  <img src="pictures/word-cloud-programming.png" alt="" class="cover">
+</section>
+<!-- Языки (end) -->
+
+<!--  (begin) -->
+<section class="slide">
+  <h2 class="shout">2017 год</h2>
+  <p>Date.now()</p>
+</section>
+<!--  (end) -->
+
+<!-- Изоморфный js (begin) -->
+<section class="slide">
+  <img src="pictures/isomorphic-js.png" alt="" class="cover">
+</section>
+<!-- Изоморфный js (end) -->
+
+<!-- Экосистема js (begin) -->
+<section class="slide">
+  <img src="pictures/frameworks.png" alt="" class="cover">
+</section>
+<!-- Экосистема js (end) -->
+
+<!-- js courses search result (begin) -->
+<section class="slide">
+  <img src="pictures/javascript-courses-search-result.png" alt="" class="cover">
+</section>
+<!-- js courses search result (end) -->
+
+<!-- Куда пойти учиться? (begin) -->
+<section class="slide">
+  <img src="pictures/Why-study.png" alt="" class="cover">
+</section>
+<!-- Куда пойти учиться? (end) -->
+<!-- Куда пойти учиться? (begin) -->
+<section class="slide">
+  <img src="pictures/Why-study-2.jpg" alt="" class="cover">
+</section>
+<!-- Куда пойти учиться? (end) -->
 
 <!-- MIT challenge (begin) -->
-<section class="slide" style="padding-top: 40px;">
+<!--<section class="slide" style="padding-top: 40px;">
   <h2>MIT challenge <a style="font-size: 16px;" href="https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/">scotthyoung.com</a></h2>
   <img src="pictures/MIT-Challenge-list.png" alt="MIT learning progress list">
   <div style="height: 470px;
@@ -100,8 +191,45 @@ jQuery(this).addClass("selected");
         style="margin-top: -107%;"
       src="pictures/MIT-Challenge-list.png"
       alt="MIT learning progress list"></div>
-</section>
+</section>-->
 <!-- MIT challenge (end) -->
+
+<!-- Воронка node modules (begin) -->
+<section class="slide">
+  <img src="pictures/sun-neutron-star-black-hole-node-modules-yep-19541514.png" alt="" class="cover">
+</section>
+<!-- Воронка node modules (end) -->
+
+<!-- Воронка путешествия по времени (begin) -->
+<section class="slide">
+  <img src="pictures/time-travel-hole.jpg" alt="" class="cover">
+</section>
+<!-- Воронка путешествия по времени (end) -->
+
+<!-- Небоскреб (begin) -->
+<section class="slide">
+  <img src="pictures/abudabi.png" alt="" class="cover">
+</section>
+<!-- Небоскреб (end) -->
+
+<!-- Небоскреб схема (begin) -->
+<section class="slide">
+  <img src="pictures/fall-skyscrapper-schema.jpg" alt="" class="cover">
+</section>
+<!-- Небоскреб схема (end) -->
+
+
+<!-- Небоскреб формула (begin) -->
+<section class="slide">
+  <img src="pictures/sopromat-root.png" alt="" class="cover">
+</section>
+<!-- Небоскреб формула (end) -->
+
+<!-- Фундамент (begin) -->
+<section class="slide">
+  <img src="pictures/skyscrabber-footprint.jpg" alt="" class="cover">
+</section>
+<!-- Фундамент (end) -->
 
 <!-- Список книг (begin) -->
 <section class="slide">
@@ -138,6 +266,7 @@ jQuery(this).addClass("selected");
 </section>
 <!-- Список книг (end) -->
 
+
 <!-- Вопросы и предложения (begin) -->
 <section class="slide">
   <img src="pictures/questions-and-comments.jpg" alt="" class="cover">
@@ -156,6 +285,25 @@ jQuery(this).addClass("selected");
   </ul>
 </section>
 <!-- Contacts (end) -->
+
+
+<!-- Off topic (begin) -->
+<section class="slide">
+  <h2>Off topic</h2>
+
+  <ul>
+    <li>
+      <a href="https://www.youtube.com/watch?v=EUIvALKEDN0">
+        Суперсооружения: Падающая башня в Абу-Даби</a>
+    </li>
+    <li>
+      <a href="http://student-madi.ru/DLRs/BOOKS/BAZ-BOOK/ORIGINAL/BazKurs.pdf">
+        ТЕОРЕТИЧЕСКАЯ МЕХАНИКА: СТАТИКА. КИНЕМАТИКА. ДИНАМИКА
+      </a>
+    </li>
+  </ul>
+</section>
+<!-- Off topic (end) -->
 
 <footer class="badge">
   <a href="https://github.com/easy-deep-learning/boost-your-javascript-knowledge-level">Fork me on GitHub</a>
